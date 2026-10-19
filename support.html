@@ -6,35 +6,73 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Support | ProgressReveal</title>
 <style>
-:root{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
 *{box-sizing:border-box}
-body{margin:0;background:#f5f7fc;color:#18243a;line-height:1.7}
-header{background:linear-gradient(135deg,#122c58,#2563eb);color:white;padding:48px 24px;text-align:center}
+body{
+  margin:0;
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+  background:#f5f7fc;
+  color:#18243a;
+  line-height:1.7;
+}
+header{
+  background:linear-gradient(135deg,#122c58,#2563eb);
+  color:white;
+  padding:48px 24px;
+  text-align:center;
+}
 header h1{margin:0;font-size:36px}
 header p{max-width:600px;margin:12px auto}
 main{max-width:880px;margin:auto;padding:28px 24px 60px}
 nav{text-align:center;margin-bottom:32px}
-nav a{margin:0 12px;color:#2057b5;text-decoration:none;font-weight:600}
+nav a{
+  display:inline-block;
+  margin:0 10px;
+  color:#2057b5;
+  text-decoration:none;
+  font-weight:600;
+}
 h2{color:#2057b5;margin-top:36px}
 a{color:#2057b5}
-.card{background:white;border:1px solid #dce3ee;border-radius:14px;padding:20px 24px;margin:15px 0}
-.button{display:inline-block;background:#2563eb;color:white;text-decoration:none;font-weight:600;padding:14px 22px;border-radius:10px}
-footer{border-top:1px solid #d6ddeb;padding-top:20px;margin-top:48px;font-size:14px;color:#52617a}
+.card{
+  background:white;
+  border:1px solid #dce3ee;
+  border-radius:14px;
+  padding:20px 24px;
+  margin:15px 0;
+}
+.button{
+  display:inline-block;
+  background:#2563eb;
+  color:white;
+  text-decoration:none;
+  font-weight:600;
+  padding:14px 22px;
+  border-radius:10px;
+}
+footer{
+  border-top:1px solid #d6ddeb;
+  padding-top:20px;
+  margin-top:48px;
+  font-size:14px;
+  color:#52617a;
+}
 @media(prefers-color-scheme:dark){
-body{background:#101827;color:#e7edf7}
-.card{background:#1b293e;border-color:#35465e}
-h2,nav a,a{color:#8bb7ff}
-.button{color:white}
-footer{color:#9cabc3;border-color:#35445c}
+  body{background:#101827;color:#e7edf7}
+  .card{background:#1b293e;border-color:#35465e}
+  h2,nav a,a{color:#8bb7ff}
+  .button{color:white}
+  footer{color:#9cabc3;border-color:#35445c}
 }
 </style>
 </head>
 <body>
+
 <header>
 <h1>ProgressReveal</h1>
 <p>Before &amp; After Photo Comparison</p>
 <p>Capture your progress. Align your photos. Slide to reveal the transformation.</p>
 </header>
+
 <main>
 <nav>
 <a href="privacy.html">Privacy</a>
@@ -49,27 +87,28 @@ footer{color:#9cabc3;border-color:#35445c}
 
 <div class="card">
 <h3>1. Create a Comparison</h3>
-<p>Open the Capture tab and tap "New Comparison."</p>
+<p>Open the Capture tab and select "New Comparison."</p>
 </div>
 
 <div class="card">
-<h3>2. Add a Before Photo</h3>
-<p>Capture a new photograph using your iPhone camera or import an existing image from your photo library.</p>
+<h3>2. Add Your Before Photo</h3>
+<p>Take a photograph using your iPhone camera or import an existing picture from your photo library.</p>
 </div>
 
 <div class="card">
-<h3>3. Add an After Photo</h3>
-<p>Take or import the second photograph. ProgressReveal automatically attempts to align it with the original image.</p>
+<h3>3. Add Your After Photo</h3>
+<p>Capture or import your second photograph.</p>
+<p>ProgressReveal automatically attempts to align the new picture with the original.</p>
 </div>
 
 <div class="card">
 <h3>4. Compare Your Photos</h3>
-<p>Drag the comparison slider to reveal the changes between your before-and-after photographs.</p>
+<p>Drag the interactive slider to reveal the differences between the two photographs.</p>
 </div>
 
 <div class="card">
 <h3>5. Share Your Progress</h3>
-<p>Export a standard JPG comparison or an interactive HTML slider that recipients can explore.</p>
+<p>Export a regular JPG comparison or an interactive HTML file containing both photographs and a working slider.</p>
 </div>
 
 <h2>Frequently Asked Questions</h2>
@@ -77,42 +116,43 @@ footer{color:#9cabc3;border-color:#35445c}
 <div class="card">
 <h3>Does ProgressReveal require internet access?</h3>
 <p>No. Core features including photo capture, importing, alignment, comparison, and local storage work offline.</p>
-<p>Sharing files through internet-based services may require a connection.</p>
+<p>Sharing through certain services may require an internet connection.</p>
 </div>
 
 <div class="card">
 <h3>Can I import existing photographs?</h3>
-<p>Yes. You can import existing before-and-after images through Apple's photo picker.</p>
+<p>Yes. ProgressReveal allows you to import existing before-and-after photographs through Apple's system photo picker.</p>
 </div>
 
 <div class="card">
 <h3>How does automatic alignment work?</h3>
-<p>ProgressReveal uses Apple's on-device Vision technology to estimate positioning differences between photographs and attempt to align them.</p>
-<p>For the best results, take both photographs from approximately the same position and angle.</p>
+<p>ProgressReveal uses Apple's on-device Vision technology to estimate positioning differences between photographs.</p>
+<p>For best results, capture both photographs from approximately the same position and angle.</p>
 </div>
 
 <div class="card">
-<h3>What if my photographs don't align correctly?</h3>
-<p>Use Adjust to fine-tune positioning manually, or Re-align to retry automatic alignment.</p>
-<p>Significant differences in perspective or camera angle may require retaking the photograph.</p>
+<h3>What if automatic alignment isn't accurate?</h3>
+<p>Use Adjust to fine-tune the photograph's positioning manually.</p>
+<p>You can also select Re-align to retry automatic alignment.</p>
+<p>Significant differences in camera angle or perspective may require retaking the photograph.</p>
 </div>
 
 <div class="card">
 <h3>How do I share an interactive comparison?</h3>
-<p>Open a completed project and tap "Share Interactive Slider."</p>
-<p>ProgressReveal creates an HTML file containing both photographs and an interactive comparison slider.</p>
-<p>The recipient can open the file in a compatible browser without installing ProgressReveal. Some applications may require saving the file before opening it.</p>
+<p>Open a completed comparison and select "Share Interactive Slider."</p>
+<p>ProgressReveal generates an HTML file containing both photographs and an interactive comparison slider.</p>
+<p>Recipients can open the file in a compatible browser without installing ProgressReveal. Some services require saving the file first.</p>
 </div>
 
 <div class="card">
-<h3>How do I share a regular picture?</h3>
-<p>Tap "Share Comparison Image" to export a standard JPG image showing the current slider position.</p>
+<h3>How do I share a standard picture?</h3>
+<p>Select "Share Comparison Image" to export a JPG image showing the current slider position.</p>
 </div>
 
 <div class="card">
 <h3>Where are my photographs stored?</h3>
-<p>Your comparison projects and photographs are saved locally on your iPhone.</p>
-<p>ProgressReveal does not automatically upload them to an external server.</p>
+<p>Your comparison photographs and project information are stored locally on your device.</p>
+<p>ProgressReveal does not automatically upload them to a developer-operated server.</p>
 </div>
 
 <div class="card">
@@ -121,44 +161,55 @@ footer{color:#9cabc3;border-color:#35445c}
 </div>
 
 <div class="card">
-<h3>How do I change camera permissions?</h3>
-<p>Open iPhone Settings, then Privacy &amp; Security, then Camera, and review ProgressReveal's access.</p>
-</div>
-
-<div class="card">
 <h3>Can I use ProgressReveal for business?</h3>
-<p>Yes. ProgressReveal can help document landscaping, cleaning, restoration, remodeling, detailing, and other projects.</p>
+<p>Yes. ProgressReveal can help document landscaping, cleaning, home renovation, vehicle detailing, restoration, and other projects.</p>
 </div>
 
 <h2>Troubleshooting</h2>
 
 <div class="card">
 <h3>The camera won't open</h3>
-<p>Verify camera permissions in iPhone Settings and make sure your device camera is working properly.</p>
+<p>Open iPhone Settings, navigate to Privacy &amp; Security, then Camera, and verify ProgressReveal has permission.</p>
 </div>
 
 <div class="card">
 <h3>Automatic alignment failed</h3>
-<p>Try using two photographs with similar framing, adequate lighting, and visible matching details. You can also adjust alignment manually.</p>
+<p>Try photographs with similar framing, adequate lighting, and visible matching details.</p>
+<p>You can also adjust the alignment manually.</p>
 </div>
 
 <div class="card">
-<h3>My interactive file won't open</h3>
-<p>Some messaging applications do not directly preview HTML attachments. Try saving the file and opening it using a compatible browser.</p>
+<h3>The interactive comparison won't open</h3>
+<p>Some messaging applications do not directly preview HTML attachments.</p>
+<p>Try saving the file and opening it in a compatible web browser.</p>
 </div>
 
 <h2>Contact Support</h2>
-<p>Have a question, found a bug, or want to suggest an improvement?</p>
-<p>Include your iPhone model, iOS version, and a description of the issue.</p>
+<p>Need help, found a bug, or have a feature suggestion?</p>
+<p>When contacting support, please include your iPhone model, iOS version, and a description of the problem.</p>
 
-<p><a class="button" href="mailto:josh.swift.dev@gmail.com?subject=ProgressReveal%20Support">Email Support</a></p>
+<p>
+<a class="button"
+href="mailto:josh.swift.dev@gmail.com?subject=ProgressReveal%20Support">
+Email Support
+</a>
+</p>
 
-<p>Email: <a href="mailto:josh.swift.dev@gmail.com">josh.swift.dev@gmail.com</a></p>
+<p>
+<strong>Email:</strong>
+<a href="mailto:josh.swift.dev@gmail.com">
+josh.swift.dev@gmail.com
+</a>
+</p>
 
 <footer>
-<p>&copy; 2026 All rights reserved.</p>
-<p><a href="privacy.html">Privacy Policy</a> | <a href="terms.html">Terms of Use</a></p>
+<p>&copy; 2026 ProgressReveal. All rights reserved.</p>
+<p>
+<a href="privacy.html">Privacy Policy</a> |
+<a href="terms.html">Terms of Use</a>
+</p>
 </footer>
+
 </main>
 </body>
 </html>
