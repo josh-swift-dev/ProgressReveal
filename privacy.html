@@ -2,140 +2,666 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Privacy Policy | ProgressReveal</title>
-<style>
-*{box-sizing:border-box}
-body{
-  margin:0;
-  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
-  background:#f5f7fc;
-  color:#18243a;
-  line-height:1.75;
-}
-header{
-  background:linear-gradient(135deg,#122c58,#2563eb);
-  color:white;
-  padding:48px 24px;
-  text-align:center;
-}
-header h1{margin:0;font-size:34px}
-header p{margin:8px 0 0}
-main{max-width:850px;margin:auto;padding:28px 24px 60px}
-nav{text-align:center;margin-bottom:32px}
-nav a{
-  display:inline-block;
-  margin:0 10px;
-  color:#2057b5;
-  text-decoration:none;
-  font-weight:600;
-}
-h2{color:#2057b5;margin-top:32px}
-a{color:#2057b5}
-footer{
-  border-top:1px solid #d6ddeb;
-  padding-top:20px;
-  margin-top:48px;
-  font-size:14px;
-  color:#52617a;
-}
-@media(prefers-color-scheme:dark){
-  body{background:#101827;color:#e7edf7}
-  h2,nav a,a{color:#8bb7ff}
-  footer{color:#9cabc3;border-color:#35445c}
-}
-</style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="color-scheme" content="light dark">
+  <meta name="description" content="ProgressReveal Privacy Policy">
+  <title>Privacy Policy | ProgressReveal</title>
+
+  <style>
+    :root {
+      color-scheme: light dark;
+      --bg: #f5f7fb;
+      --card: #ffffff;
+      --text: #172236;
+      --muted: #65738a;
+      --border: #dee5ef;
+      --blue: #1260d8;
+      --soft: #eaf2ff;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #0b101a;
+        --card: #171e2b;
+        --text: #f5f7fc;
+        --muted: #aab5c7;
+        --border: #2d3749;
+        --blue: #66a3ff;
+        --soft: #172b49;
+      }
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont,
+        "Segoe UI", sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.7;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    header {
+      padding: 65px 20px 55px;
+      text-align: center;
+      color: white;
+      background: linear-gradient(145deg, #071c3e, #1357b9);
+    }
+
+    header h1 {
+      font-size: clamp(2.2rem, 7vw, 3.5rem);
+      letter-spacing: -1.5px;
+      margin: 0;
+    }
+
+    header h1 span { color: #78c4ff; }
+
+    header p {
+      color: #e4efff;
+      margin: 10px 0;
+    }
+
+    main {
+      max-width: 850px;
+      margin: auto;
+      padding: 30px 18px 60px;
+    }
+
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      padding: 28px;
+      margin-bottom: 22px;
+    }
+
+    h2 {
+      margin-top: 0;
+      font-size: 1.45rem;
+    }
+
+    h3 {
+      font-size: 1.08rem;
+      margin-bottom: 8px;
+    }
+
+    p { margin: 12px 0; }
+    li { margin: 9px 0; }
+    ul { padding-left: 23px; }
+
+    a { color: var(--blue); }
+
+    .notice {
+      background: var(--soft);
+      border-radius: 12px;
+      padding: 16px 20px;
+      margin-bottom: 25px;
+    }
+
+    .muted { color: var(--muted); }
+
+    .button {
+      display: inline-block;
+      background: #1260d8;
+      color: white;
+      padding: 12px 21px;
+      border-radius: 10px;
+      text-decoration: none;
+      font-weight: 700;
+      margin-top: 10px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 25px;
+      color: var(--muted);
+      font-size: .9rem;
+    }
+
+    @media (max-width: 600px) {
+      header { padding: 45px 18px; }
+      .card { padding: 21px; }
+    }
+  </style>
 </head>
+
 <body>
 
 <header>
-<h1>ProgressReveal</h1>
-<p>Privacy Policy</p>
+  <h1>Progress<span>Reveal</span></h1>
+  <p>Privacy Policy</p>
+  <p>Effective Date: October 20, 2026</p>
 </header>
 
 <main>
-<nav>
-<a href="privacy.html">Privacy</a>
-<a href="terms.html">Terms</a>
-<a href="support.html">Support</a>
-</nav>
 
-<p><strong>Effective Date:</strong> October 19, 2026</p>
+  <div class="notice">
+    <strong>Your photos belong to you.</strong>
+    <p>
+      ProgressReveal is designed to create and
+      manage before-and-after photo comparisons
+      directly on your device.
+    </p>
+    <p>
+      The app does not require an account to
+      create projects, and photo alignment and
+      video rendering are performed locally.
+    </p>
+  </div>
 
-<p>ProgressReveal is an iOS application that allows users to capture, import, align, compare, organize, and share before-and-after photographs.</p>
+  <section class="card">
+    <h2>1. Introduction</h2>
 
-<p>Your privacy is important to us. ProgressReveal is designed to process photographs locally on your device without requiring an account or cloud-based photo processing.</p>
+    <p>
+      This Privacy Policy explains how
+      ProgressReveal handles photographs,
+      videos, permissions, project information,
+      purchases, and other information when
+      you use the application.
+    </p>
 
-<h2>1. Information Collection</h2>
-<p>ProgressReveal does not require account registration and does not operate a developer-controlled service for collecting your photographs or comparison projects.</p>
+    <p>
+      By using ProgressReveal, you acknowledge
+      the practices described in this policy.
+    </p>
+  </section>
 
-<p>The current version does not intentionally collect personal information, device location, advertising identifiers, or usage analytics through its core features.</p>
+  <section class="card">
+    <h2>2. Information You Provide</h2>
 
-<h2>2. Camera Access</h2>
-<p>ProgressReveal accesses your iPhone camera only when you choose to take a photograph.</p>
+    <p>
+      ProgressReveal processes information you
+      choose to provide while using its features.
+    </p>
 
-<p>Camera permission is controlled by iOS and can be managed through your device's privacy settings.</p>
+    <ul>
+      <li>Before and after photographs.</li>
+      <li>Photographs captured using the camera.</li>
+      <li>Project names and optional notes.</li>
+      <li>Custom watermark text and logos.</li>
+      <li>Image alignment and comparison settings.</li>
+      <li>Export and appearance preferences.</li>
+    </ul>
 
-<h2>3. Photo Library Access</h2>
-<p>ProgressReveal uses Apple's system photo picker to import existing photographs.</p>
+    <p>
+      This information is used to provide the
+      comparison, project management, editing,
+      and export functionality you request.
+    </p>
 
-<p>The application receives only the photographs you explicitly select. Unrestricted photo library access is not required for importing images.</p>
+    <p>
+      Project photographs and related project
+      data are stored locally in the app's
+      device storage.
+    </p>
+  </section>
 
-<h2>4. Local Storage</h2>
-<p>Original photographs, aligned photographs, comparison projects, project titles, and notes are stored locally within the application's storage on your device.</p>
+  <section class="card">
+    <h2>3. Photo Library Access</h2>
 
-<p>ProgressReveal does not automatically upload these files to an external server.</p>
+    <p>
+      ProgressReveal uses Apple's system photo
+      picker to let you select photographs for
+      comparisons and watermark logos.
+    </p>
 
-<p>Device backup services may retain copies according to your Apple backup settings.</p>
+    <p>
+      Apple's photo picker lets you choose
+      specific images without granting the
+      application unrestricted access to
+      your entire Photos library.
+    </p>
 
-<h2>5. Automatic Photo Alignment</h2>
-<p>ProgressReveal uses Apple's on-device image processing technologies, including the Vision framework, to attempt to align before-and-after photographs.</p>
+    <p>
+      Only the images you select are provided
+      to ProgressReveal through this interface.
+    </p>
 
-<p>Photo alignment is performed locally and does not require transmitting photographs to an external AI processing service.</p>
+    <p>
+      Choosing photos does not require you to
+      authorize full Photo Library access.
+    </p>
+  </section>
 
-<h2>6. Sharing and Exporting</h2>
-<p>ProgressReveal allows users to export standard comparison images and interactive HTML comparison files.</p>
+  <section class="card">
+    <h2>4. Saving Images and Videos to Photos</h2>
 
-<p>Interactive HTML exports contain embedded copies of both photographs, allowing recipients to operate the comparison slider.</p>
+    <p>
+      ProgressReveal provides optional actions
+      to save exported comparison images and
+      reveal videos directly to Apple's
+      Photos application.
+    </p>
 
-<p>Sharing occurs only when initiated by the user. Receiving applications and services may process or retain shared files according to their own privacy policies.</p>
+    <p>These actions include:</p>
 
-<h2>7. Advertising and Tracking</h2>
-<p>The current version of ProgressReveal does not include third-party advertising, analytics SDKs, or cross-app tracking functionality.</p>
+    <ul>
+      <li>Save Image to Photos.</li>
+      <li>Save Video to Photos.</li>
+    </ul>
 
-<h2>8. Data Retention and Deletion</h2>
-<p>Comparison projects remain stored locally until deleted by the user or removed with the application.</p>
+    <p>
+      When you use one of these features,
+      ProgressReveal requests add-only
+      Photos authorization through iOS,
+      when authorization is required.
+    </p>
 
-<p>Deleting a comparison removes its associated locally stored images and alignment data.</p>
+    <p>
+      Add-only authorization permits the
+      application to save new content to
+      your Photos library without giving
+      it permission to browse your
+      existing photographs.
+    </p>
 
-<p>Previously shared or exported files must be deleted separately from their destinations.</p>
+    <p>
+      Saving content to Photos is initiated
+      by you. The application does not
+      automatically save every generated
+      comparison or video to your library.
+    </p>
 
-<h2>9. Children's Privacy</h2>
-<p>ProgressReveal does not knowingly collect personal information from children through a developer-operated online service.</p>
+    <p>
+      You can review or change photo
+      permissions using your iPhone's
+      Settings application.
+    </p>
+  </section>
 
-<h2>10. Changes to This Policy</h2>
-<p>This Privacy Policy may be updated to reflect changes in application functionality or privacy practices.</p>
+  <section class="card">
+    <h2>5. Camera Access</h2>
 
-<p>Updates will be published on this page.</p>
+    <p>
+      ProgressReveal requests camera permission
+      when you choose to capture a photograph
+      using the device camera.
+    </p>
 
-<h2>11. Contact</h2>
-<p>For privacy-related questions, contact:</p>
+    <p>
+      Camera access is used to capture
+      before-and-after photographs for
+      your projects.
+    </p>
 
-<p>
-<a href="mailto:josh.swift.dev@gmail.com">
-josh.swift.dev@gmail.com
-</a>
-</p>
+    <p>
+      You may use existing photographs from
+      the system photo picker instead of
+      granting camera permission.
+    </p>
 
-<footer>
-<p>&copy; 2026 ProgressReveal. All rights reserved.</p>
-<p>
-<a href="support.html">Support</a> |
-<a href="terms.html">Terms of Use</a>
-</p>
-</footer>
+    <p>
+      ProgressReveal does not require
+      continuous camera access.
+    </p>
+  </section>
+
+  <section class="card">
+    <h2>6. Photo Alignment and Image Processing</h2>
+
+    <p>
+      ProgressReveal uses on-device image
+      processing, including Apple's Vision
+      and graphics technologies, to attempt
+      automatic alignment between
+      before-and-after photographs.
+    </p>
+
+    <p>
+      Images are analyzed locally to help
+      match visual features and improve
+      comparison accuracy.
+    </p>
+
+    <p>
+      Manual alignment adjustments are
+      also performed on the device.
+    </p>
+
+    <p>
+      ProgressReveal does not need to
+      upload your photographs to an
+      external image-processing server
+      to perform these operations.
+    </p>
+  </section>
+
+  <section class="card">
+    <h2>7. Projects and Local Storage</h2>
+
+    <p>
+      ProgressReveal stores project data
+      locally so you can reopen and
+      manage saved comparisons.
+    </p>
+
+    <p>Locally stored information may include:</p>
+
+    <ul>
+      <li>Project identifiers and names.</li>
+      <li>Before and after photographs.</li>
+      <li>Aligned comparison images.</li>
+      <li>Project notes.</li>
+      <li>Watermark settings and logo files.</li>
+      <li>Comparison usage and preference data.</li>
+    </ul>
+
+    <p>
+      When you delete a project, the app
+      removes its associated project records
+      and stored image files from its
+      managed project storage.
+    </p>
+
+    <p>
+      Content that you previously saved
+      to Photos, exported to Files, or
+      shared with another application
+      is not automatically deleted.
+    </p>
+
+    <p>
+      Removing the application from your
+      device may also remove locally
+      stored project information.
+    </p>
+  </section>
+
+  <section class="card">
+    <h2>8. Watermarks and Branding</h2>
+
+    <p>
+      ProgressReveal lets users add
+      custom text and logo images
+      to their comparisons.
+    </p>
+
+    <p>
+      Watermark information is used
+      to display branding in comparison
+      previews and supported exports.
+    </p>
+
+    <p>
+      Watermark settings may be saved
+      for individual projects or used
+      as defaults for future projects.
+    </p>
+
+    <p>
+      Logos and text are supplied
+      and controlled by the user.
+    </p>
+  </section>
+
+  <section class="card">
+    <h2>9. Image, HTML, and Video Exports</h2>
+
+    <p>
+      ProgressReveal can generate JPG
+      images, interactive HTML files,
+      and MP4 reveal videos.
+    </p>
+
+    <p>
+      These outputs are generated using
+      the app's local processing and
+      rendering functionality.
+    </p>
+
+    <p>
+      When you choose to share or
+      export a file, it may be passed
+      to the destination you select
+      through the iOS sharing interface.
+    </p>
+
+    <p>
+      Destinations may include Photos,
+      Files, messaging applications,
+      email, or third-party services.
+    </p>
+
+    <p>
+      Once you share information with
+      another application or service,
+      that destination's privacy practices
+      may apply.
+    </p>
+
+    <p>
+      Interactive HTML exports may contain
+      both selected photographs and enabled
+      watermark branding within the file.
+    </p>
+
+    <p>
+      Please review files before sharing
+      them if they contain private or
+      sensitive information.
+    </p>
+  </section>
+
+  <section class="card">
+    <h2>10. In-App Purchases</h2>
+
+    <p>
+      ProgressReveal offers an optional
+      one-time Lifetime Pro purchase.
+    </p>
+
+    <p>
+      Purchases are handled using Apple's
+      StoreKit in-app purchase system.
+    </p>
+
+    <p>
+      Apple processes payment and
+      transaction information according
+      to its own privacy policies.
+    </p>
+
+    <p>
+      ProgressReveal checks verified
+      purchase entitlements to determine
+      whether Lifetime Pro features
+      are available.
+    </p>
+
+    <p>
+      The app does not require you
+      to provide payment card details
+      directly to ProgressReveal.
+    </p>
+
+    <p>
+      Purchase restoration is available
+      through the Restore Purchases
+      option in the app.
+    </p>
+
+    <p>
+      Learn more about Apple's privacy
+      practices at
+      <a href="https://www.apple.com/legal/privacy/"
+         target="_blank" rel="noopener noreferrer">
+        Apple Privacy
+      </a>.
+    </p>
+  </section>
+
+  <section class="card">
+    <h2>11. Data Collection and Tracking</h2>
+
+    <p>
+      The app's core comparison, alignment,
+      watermark, and export functions
+      operate locally on your device.
+    </p>
+
+    <p>
+      ProgressReveal does not require
+      a user account for these functions.
+    </p>
+
+    <p>
+      The application does not use
+      photographs submitted for
+      comparisons as material for
+      training an external AI model.
+    </p>
+
+    <p>
+      Apple may process information
+      necessary for App Store purchases,
+      downloads, and related services
+      under Apple's own policies.
+    </p>
+  </section>
+
+  <section class="card">
+    <h2>12. Third-Party Services</h2>
+
+    <p>
+      ProgressReveal uses native
+      Apple technologies for photo
+      selection, device permissions,
+      image processing, media export,
+      and in-app purchases.
+    </p>
+
+    <p>
+      If you choose to share content
+      through another app, that app
+      may process the content according
+      to its own privacy policy.
+    </p>
+
+    <p>
+      Privacy, Terms, and Support links
+      may open external web pages.
+      Your browser and hosting provider
+      may process standard website
+      access information.
+    </p>
+  </section>
+
+  <section class="card">
+    <h2>13. Data Retention and Deletion</h2>
+
+    <p>
+      Locally stored project data
+      generally remains available until
+      you delete the project or remove
+      the application and its local data.
+    </p>
+
+    <p>
+      Exported content saved outside
+      ProgressReveal must be managed
+      through the destination where
+      you saved or shared it.
+    </p>
+
+    <p>
+      Apple's purchase transaction
+      records are governed by
+      Apple's applicable policies.
+    </p>
+  </section>
+
+  <section class="card">
+    <h2>14. Children's Privacy</h2>
+
+    <p>
+      ProgressReveal is a general-purpose
+      photo comparison utility and is
+      not specifically directed toward
+      children under the age of 13.
+    </p>
+
+    <p>
+      The app does not require children
+      or other users to register an
+      account to create comparisons.
+    </p>
+  </section>
+
+  <section class="card">
+    <h2>15. Security</h2>
+
+    <p>
+      ProgressReveal relies on iOS
+      application storage and Apple's
+      device security protections for
+      locally managed information.
+    </p>
+
+    <p>
+      Users should protect access to
+      their devices and exercise care
+      when exporting or sharing
+      sensitive photographs.
+    </p>
+
+    <p>
+      No method of storage or sharing
+      can guarantee absolute security.
+    </p>
+  </section>
+
+  <section class="card">
+    <h2>16. Changes to This Policy</h2>
+
+    <p>
+      This Privacy Policy may be updated
+      to reflect changes in application
+      functionality, applicable laws,
+      or privacy practices.
+    </p>
+
+    <p>
+      Updated versions will be published
+      on this page with a revised
+      effective date when appropriate.
+    </p>
+  </section>
+
+  <section class="card">
+    <h2>17. Contact Support</h2>
+
+    <p>
+      If you have questions about
+      this Privacy Policy or how
+      ProgressReveal handles information,
+      please contact:
+    </p>
+
+    <a class="button"
+       href="mailto:josh.swift.dev@gmail.com?subject=ProgressReveal%20Privacy">
+      Contact Support
+    </a>
+
+    <p class="muted">
+      josh.swift.dev@gmail.com
+    </p>
+
+    <p>
+      <a href="support.html">Support Center</a>
+      &nbsp;|&nbsp;
+      <a href="terms.html">Terms of Use</a>
+    </p>
+  </section>
 
 </main>
+
+<footer>
+  <p>&copy; 2026 ProgressReveal. All rights reserved.</p>
+  <p>Capture. Compare. Reveal.</p>
+</footer>
+
 </body>
 </html>
